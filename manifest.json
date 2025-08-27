@@ -1,0 +1,21 @@
+{
+  "name": "ChatGPT Bulk Manager",
+  "description": "Расширение для массового удаления чатов в ChatGPT.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "permissions": []
+}
