@@ -122,8 +122,11 @@ class ChatBulkUI {
       this.detach();
       this.renderBar();
       this.updateBar();
+      
       return;
+
     }
+
     this.attachCheckboxes();
     this.renderBar();
     this.bindGlobal();
