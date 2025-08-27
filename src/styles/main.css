@@ -1,0 +1,18 @@
+:root {
+  --ext-z: 2147483647;
+  --ext-bg: rgba(24,24,27,0.85);
+}
+
+.ext-pill {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  z-index: var(--ext-z);
+  background: var(--ext-bg);
+  color: #fff;
+  border: 1px solid #2b2b2f;
+  border-radius: 10px;
+  padding: 8px 12px;
+  font: 13px system-ui, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,.35);
+}
